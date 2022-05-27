@@ -6,9 +6,10 @@ const person = {
 
 let i = person.age;
 function ageIncrease() {
-    document.getElementById('inc').value = i++;
+    document.getElementById('inc').value = ++i;
 }
 
 function reset() {
-    document.getElementById('inc').value = person.age;
+    i = person.age;
+    document.getElementById('inc').value = i;
 }
