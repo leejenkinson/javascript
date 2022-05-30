@@ -13,3 +13,8 @@ function calculate() {
     let q = eval(p);
     document.getElementById("result").value = q;
 }
+
+function backspace() {
+    let bs = document.getElementById("result").value;
+    document.getElementById("result").value = bs.substr(0, bs.length -1);
+  }
