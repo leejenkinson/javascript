@@ -6,6 +6,9 @@ import ComponentForm from './ComponentForm';
 import Header from './Header';
 import Footer from './Footer';
 import Cars from './Cars';
+import MilesAhead from './MilesAhead';
+import MyCar from './MyCar';
+import Details from './Details';
 
 function App() {
   return (
@@ -41,7 +44,9 @@ function App() {
         <Cars make="Audi" model="Q4 e-tron" colour="Silver" mileage={40000} />
         <Cars make="Hyundai" model="Ioniq 5" colour="Blue" mileage={20000} />
 
-
+        <MilesAhead/>
+        <MyCar/>
+        <Details/>
         <Footer />
       </div>
     </div>

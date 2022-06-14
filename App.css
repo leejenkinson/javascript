@@ -68,3 +68,14 @@
   border-style: solid;
   border-radius: thick;
 }
+
+.MyCar {
+  background-color: black;
+  padding: 50px;
+}
+
+.Details {
+  background-color: cadetblue;
+  color: azure;
+  padding: 50px;
+}
