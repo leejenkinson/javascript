@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Cars = ({ make, model, colour, mileage }) => {
     return (
-        <div>
+        <div className = "Cars">
             <h4>{make}</h4>
             <p>{model}</p>
             <p> Colour: {colour}</p>
